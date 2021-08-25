@@ -1,0 +1,281 @@
+@media (min-width:501px){
+
+
+header {
+    width: 100%;
+    height: 50vmax;
+    background: url(images/백그라운드.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav {
+    width: 70vmax;
+    height: 5vmax;
+    margin: 0 auto;
+}
+
+nav ul {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    top: 1em;
+    font-size: 1.5vmax;
+}
+
+nav ul li a:hover {
+    color: yellow;
+    transition: 1s;
+}
+
+.intro {
+    color: white;
+}
+
+.intro > .head_font {
+    color: black;
+    text-align: center;
+    font-size: 4.25vmax;
+    position: relative;
+    top: 10vmax;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
+}
+
+.intro > .head_font_2 {
+    width: 50vmax;
+    margin: 0 auto;
+    position: relative;
+    top: 15vmax;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid white;
+    font-size: 1.5vmax;
+    padding-top: 4em;
+    text-transform: uppercase;
+}
+
+section#second {
+    background: url(images/백그라운드2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.info_1 {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+#second > .info_1 > h1 {
+    padding-top: 1em;
+    padding-bottom: 30px;
+    text-align: center;
+    color: white;
+    font-size: 5vmax;
+    text-transform: uppercase;
+}
+
+#second .info_1 > img {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.info_1 h2,
+h3 {
+    text-align: center;
+}
+
+.info_1 h2 {
+    font-size: 2.5vmax;
+    margin-bottom: 10px;
+}
+
+.info_1 h3 {
+    font-size: 1.5vmax;
+    line-height: 1.7em;
+}
+
+span {
+    font-size: 0.8em;
+}
+
+div.for_all {
+    background: rgba(0, 0, 0, 0.376);
+}
+
+div.for_all > .third_1 {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 12em;
+}
+
+div.for_all > .third_1 > img {
+    width: 40%;
+}
+
+div.for_all > .third_1 > .third_1_1 {
+    width: 60%;
+}
+
+.third_1_1 h3 {
+    font-size: 2vmax;
+    margin-top: 0.8em;
+    margin-bottom: 0.3em;
+}
+
+.third_1_1 p {
+    font-size: 1vmax;
+    text-align: center;
+    line-height: 1.8em;
+}
+.third_1_2 {
+    width: 69.3vmax;
+    margin: 0 auto;
+
+    display: flex;
+}
+
+.third_1_2 div {
+    width: 50%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+
+    text-align: center;
+}
+
+.in_box h2 {
+    font-size: 1.5vmax;
+    margin-bottom: 0.5em;
+}
+
+.in_box p {
+    font-weight: normal;
+    font-size: 1vmax;
+    line-height: 2em;
+}
+
+}
+
+@media (max-width:500px)
+{
+    header {
+        width: 100%;
+        height: 100vh;
+        background: url(images/백그라운드.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    
+    nav {
+        width: 100%;
+        height: 5vmax;
+        margin: 0 auto;
+        color: white;
+    }
+    
+    nav ul {
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        top: 1em;
+        font-size: 2vmax;
+    }
+
+    header .intro h1
+        {color: black;
+        text-align: center;
+         -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: white;
+        font-size: 6vmax;
+        margin-top: 4em;
+        }
+
+    header .intro .head_font_2
+        {color: white;
+        display: flex;
+        width: 70%;
+        justify-content: space-between;
+        margin: 0 auto ;
+        margin-top: 2em;
+        border-top: 1em;}
+
+    section#second
+        {width: 100%;
+        height: 200vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(images/백그라운드2.png);}
+
+    section#second .info_1
+        {width: 100%;
+        height: 100vh;
+        color: white;
+        text-align: center;}
+ 
+    section#second .info_1 h1
+        {text-align: center;
+        font-size: 7vmax;
+        padding-top: 1em;
+        text-transform: uppercase;}
+    
+    section#second .info_1 h2 
+        {margin-top: 0.8em;
+        font-size: 6vmax;}
+
+     section#second .info_1 h3
+        {margin-top: 0.8em;
+        font-size: 2vmax;
+        line-height: 3em;}
+
+    .self_photo
+        {width: 50%;
+        display: block;
+        margin: auto;
+        margin-top: 1em;}
+
+    .for_all
+        {color: white;
+        background-color: rgba(0, 0, 0, 0.381);}
+
+    .studying
+        {width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 2em;}
+
+    .third_1_1
+        {text-align: center;}
+
+    .third_1_1 h3
+        {font-size: 3vmax;
+        margin-top: 1em;
+        margin-bottom: 1em;}
+
+    .third_1_1 p 
+        {font-size: 2vmax;
+        margin-bottom: 3em;}
+
+    .in_box:first-child p
+        {margin-top: 2.3em;}
+
+
+
+    .in_box:last-child p
+        {margin-top: 2em;}
+
+
+    div.third_1_2
+        {display: flex;
+        text-align: center;
+        margin: 0 auto;
+        width: 95%;}
+
+}
